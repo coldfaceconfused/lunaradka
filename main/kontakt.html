@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Luna Radka — kontakt</title>
+<meta name="description" content="Kontakt z Luną Radką — zakup prac, wystawy, współpraca. Atelier w Krakowie, wizyty po umówieniu." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<div class="lr-page">
+
+  <!-- ── NAWIGACJA ──────────────────────────────────────── -->
+  <nav class="lr-nav">
+    <a class="lr-nav-logo" href="index.html">LUNA RADKA</a>
+    <ul class="lr-nav-links mono">
+      <li><a href="index.html">galeria</a></li>
+      <li><a href="o-artystce.html">o artystce</a></li>
+      <li><a href="kontakt.html" class="is-current">kontakt</a></li>
+    </ul>
+    <button class="lr-nav-toggle mono" aria-label="Otwórz menu" aria-expanded="false">
+      <span class="lr-nav-toggle-label">menu</span>
+      <span class="lr-burger" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <div class="lr-nav-overlay">
+      <ul class="lr-nav-overlay-links">
+        <li style="transition-delay:.05s"><a href="index.html">galeria</a></li>
+        <li style="transition-delay:.11s"><a href="o-artystce.html">o artystce</a></li>
+        <li style="transition-delay:.17s"><a href="kontakt.html" class="is-current">kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="lr-page-pad">
+    <section class="lr-contact" data-screen-label="Kontakt">
+      <div class="lr-contact-grid">
+
+        <div class="lr-contact-aside">
+          <div class="lr-about-num mono">KONTAKT</div>
+          <h2 class="lr-contact-title lr-reveal">napisz<br />do mnie</h2>
+          <p class="lr-contact-blurb lr-reveal" style="transition-delay:.1s">
+            LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
+            LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
+          </p>
+          <div class="lr-contact-direct mono lr-reveal" style="transition-delay:.16s">
+            <div><span>e-mail</span>studio@lunaradka.pl</div>
+            <div><span>atelier</span>Warszawa · wizyty po umówieniu</div>
+            <div><span>instagram</span>@luna.radka</div>
+          </div>
+        </div>
+
+        <div class="lr-reveal" style="transition-delay:.12s">
+          <form class="lr-form">
+            <label class="lr-field">
+              <span class="lr-field-label mono">imię</span>
+              <input type="text" name="imie" required placeholder="Twoje imię" />
+            </label>
+            <label class="lr-field">
+              <span class="lr-field-label mono">e-mail</span>
+              <input type="email" name="email" required placeholder="adres@email.pl" />
+            </label>
+            <label class="lr-field">
+              <span class="lr-field-label mono">wiadomość</span>
+              <textarea name="wiadomosc" rows="5" required placeholder="O czym chcesz napisać?"></textarea>
+            </label>
+            <button type="submit" class="lr-form-submit mono">wyślij wiadomość →</button>
+          </form>
+
+          <div class="lr-form-sent" hidden>
+            <div class="lr-form-sent-mark">✓</div>
+            <div class="lr-form-sent-title">dziękuję</div>
+            <p class="lr-form-sent-text">Wiadomość wysłana. Odpiszę najszybciej, jak potrafię.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="lr-footer">
+    <div class="lr-footer-name">luna radka</div>
+    <div class="lr-footer-meta mono">
+      atelier · warszawa &nbsp;·&nbsp; studio@lunaradka.pl &nbsp;·&nbsp; instagram @luna.radka
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
