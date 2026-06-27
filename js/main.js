@@ -92,6 +92,8 @@
     var techEl  = lb.querySelector('[data-spec="technika"]');
     var dimEl   = lb.querySelector('[data-spec="wymiary"]');
     var noteEl  = lb.querySelector('.lr-lb-note');
+    var statusEl = lb.querySelector('.lr-lb-status');
+    var defaultStatus = statusEl ? statusEl.textContent : '';
     var total   = tiles.length;
     var current = 0;
 
@@ -105,6 +107,7 @@
       techEl.textContent = t.tech;
       dimEl.textContent = t.dim;
       noteEl.textContent = t.note;
+      if (statusEl) statusEl.textContent = t.status || defaultStatus;
     }
     function pad(n) { return n < 10 ? '0' + n : '' + n; }
 
