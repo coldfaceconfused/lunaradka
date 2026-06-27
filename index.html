@@ -1,233 +1,243 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Luna Radka — galeria</title>
-<meta name="description" content="Luna Radka — malarstwo 2018–2026. Olej i akryl na płótnie. Galeria prac, o artystce, kontakt." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luna Radka — galeria</title>
+  <meta name="description"
+    content="Luna Radka — malarstwo 2018–2026. Olej i akryl na płótnie. Galeria prac, o artystce, kontakt." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<div class="grain"></div>
+  <div class="grain"></div>
 
-<div class="lr-page">
+  <div class="lr-page">
 
-  <!-- ── NAWIGACJA ──────────────────────────────────────── -->
-  <nav class="lr-nav">
-    <a class="lr-nav-logo" href="index.html">LUNA RADKA</a>
-    <ul class="lr-nav-links mono">
-      <li><a href="index.html" class="is-current">galeria</a></li>
-      <li><a href="o-artystce.html">o artystce</a></li>
-      <li><a href="kontakt.html">kontakt</a></li>
-    </ul>
-    <button class="lr-nav-toggle mono" aria-label="Otwórz menu" aria-expanded="false">
-      <span class="lr-nav-toggle-label">menu</span>
-      <span class="lr-burger" aria-hidden="true"><i></i><i></i></span>
-    </button>
-    <div class="lr-nav-overlay">
-      <ul class="lr-nav-overlay-links">
-        <li style="transition-delay:.05s"><a href="index.html" class="is-current">galeria</a></li>
-        <li style="transition-delay:.11s"><a href="o-artystce.html">o artystce</a></li>
-        <li style="transition-delay:.17s"><a href="kontakt.html">kontakt</a></li>
+    <!-- ── NAWIGACJA ──────────────────────────────────────── -->
+    <nav class="lr-nav">
+      <a class="lr-nav-logo" href="index.html">LUNA RADKA</a>
+      <ul class="lr-nav-links mono">
+        <li><a href="index.html" class="is-current">galeria</a></li>
+        <li><a href="o-artystce.html">o artystce</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
       </ul>
-    </div>
-  </nav>
-
-  <!-- ── HERO ───────────────────────────────────────────── -->
-  <header class="lr-hero" data-screen-label="Hero">
-    <div class="lr-hero-img-wrap">
-      <div class="lr-hero-frame">
-        <img src="art/Cho_na_dymka.jpg" alt="Luna Radka" />
+      <button class="lr-nav-toggle mono" aria-label="Otwórz menu" aria-expanded="false">
+        <span class="lr-nav-toggle-label">menu</span>
+        <span class="lr-burger" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <div class="lr-nav-overlay">
+        <ul class="lr-nav-overlay-links">
+          <li style="transition-delay:.05s"><a href="index.html" class="is-current">galeria</a></li>
+          <li style="transition-delay:.11s"><a href="o-artystce.html">o artystce</a></li>
+          <li style="transition-delay:.17s"><a href="kontakt.html">kontakt</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
 
-    <div class="lr-hero-caption mono">
-      LOREM IPSUM · LOREM IPSUM · LOREM IPSUM · LOREM IPSUMLOREM IPSUM
-    </div>
-
-    <div class="lr-hero-text">
-      <div class="lr-hero-name">
-        <span aria-label="LUNA"><span class="lr-char" style="animation-delay:.15s">L</span><span class="lr-char" style="animation-delay:.195s">U</span><span class="lr-char" style="animation-delay:.24s">N</span><span class="lr-char" style="animation-delay:.285s">A</span></span>
-        <br />
-        <span aria-label="RADKA"><span class="lr-char" style="animation-delay:.45s">R</span><span class="lr-char" style="animation-delay:.495s">A</span><span class="lr-char" style="animation-delay:.54s">D</span><span class="lr-char" style="animation-delay:.585s">K</span><span class="lr-char" style="animation-delay:.63s">A</span></span>
+    <!-- ── HERO ───────────────────────────────────────────── -->
+    <header class="lr-hero" data-screen-label="Hero">
+      <div class="lr-hero-img-wrap">
+        <div class="lr-hero-frame">
+          <img src="art/Cho_na_dymka.jpg" alt="Luna Radka" />
+        </div>
       </div>
-      <div class="lr-hero-sub mono">LOREM IPSUM · LOREM IPSUM</div>
-    </div>
 
-    <button class="lr-scroll-cue mono">
-      <span>galeria</span>
-      <span class="lr-arrow">↓</span>
-    </button>
-  </header>
+      <div class="lr-hero-caption mono">
+        LOREM IPSUM · LOREM IPSUM · LOREM IPSUM · LOREM IPSUMLOREM IPSUM
+      </div>
 
-  <!-- ── GALERIA ────────────────────────────────────────── -->
-  <section class="lr-gallery" id="galeria" data-screen-label="Galeria">
-    <div class="lr-gallery-head">
-      <div class="lr-gallery-num mono">PRACE</div>
-      <h2 class="lr-gallery-title">prace</h2>
-      <div class="lr-gallery-meta mono">LOREM IPSUM · LOREM IPSUM · LOREM IPSUM</div>
-    </div>
-
-    <div class="lr-grid">
-
-      <figure class="lr-tile" style="transition-delay:0s"
-        data-file="art/Cho_na_dymka.jpg" data-title="Cho na dymka" data-year="2026" data-tech="akryl na płótnie" data-dim="40 × 50 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Cho_na_dymka.jpg" alt="Cho na dymka" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
+      <div class="lr-hero-text">
+        <div class="lr-hero-name">
+          <span aria-label="LUNA"><span class="lr-char" style="animation-delay:.15s">L</span><span class="lr-char"
+              style="animation-delay:.195s">U</span><span class="lr-char" style="animation-delay:.24s">N</span><span
+              class="lr-char" style="animation-delay:.285s">A</span></span>
+          <br />
+          <span aria-label="RADKA"><span class="lr-char" style="animation-delay:.45s">R</span><span class="lr-char"
+              style="animation-delay:.495s">A</span><span class="lr-char" style="animation-delay:.54s">D</span><span
+              class="lr-char" style="animation-delay:.585s">K</span><span class="lr-char"
+              style="animation-delay:.63s">A</span></span>
         </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Cho na dymka</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 40 × 50 cm</span>
-        </figcaption>
-      </figure>
+        <div class="lr-hero-sub mono">LOREM IPSUM · LOREM IPSUM</div>
+      </div>
 
-      <figure class="lr-tile" style="transition-delay:.06s"
-        data-file="art/Krzyk.jpg" data-title="Krzyk" data-year="2026" data-tech="akryl na płótnie" data-dim="40 × 50 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Krzyk.jpg" alt="Krzyk" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Krzyk</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 40 × 50 cm</span>
-        </figcaption>
-      </figure>
+      <button class="lr-scroll-cue mono">
+        <span>galeria</span>
+        <span class="lr-arrow">↓</span>
+      </button>
+    </header>
 
-      <figure class="lr-tile" style="transition-delay:.12s"
-        data-file="art/Na_fali.jpg" data-title="Na fali" data-year="2026" data-tech="akryl na płótnie" data-dim="60 × 90 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Na_fali.jpg" alt="Na fali" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Na fali</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 60 × 90 cm</span>
-        </figcaption>
-      </figure>
+    <!-- ── GALERIA ────────────────────────────────────────── -->
+    <section class="lr-gallery" id="galeria" data-screen-label="Galeria">
+      <div class="lr-gallery-head">
+        <div class="lr-gallery-num mono">PRACE</div>
+        <h2 class="lr-gallery-title">prace</h2>
+        <div class="lr-gallery-meta mono">LOREM IPSUM · LOREM IPSUM · LOREM IPSUM</div>
+      </div>
 
-      <figure class="lr-tile" style="transition-delay:.18s"
-        data-file="art/Tesknota.jpg" data-title="Tesknota" data-year="2026" data-tech="akryl na płótnie" data-dim="30 × 40 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Tesknota.jpg" alt="Tesknota" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Tęsknota</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 30 × 40 cm</span>
-        </figcaption>
-      </figure>
+      <div class="lr-grid">
 
-      <figure class="lr-tile" style="transition-delay:0s"
-        data-file="art/To_the_Core.jpg" data-title="To the Core" data-year="2026" data-tech="akryl na płótnie" data-dim="50 × 70 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/To_the_Core.jpg" alt="To the Core" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">To the Core</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 50 × 70 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:0s" data-file="art/Cho_na_dymka.jpg" data-title="Cho na dymka"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="40 × 50 cm"
+          data-note="Dwójka przyjaciół wyszła na przerwę na papierosa, scalając się w tym krótkim momencie odpoczynku.">
+          <div class="lr-tile-frame">
+            <img src="art/Cho_na_dymka.jpg" alt="Cho na dymka" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Cho na dymka</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 40 × 50 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:.06s"
-        data-file="art/VIII_Sila_aka_Krol.jpg" data-title="VIII Siła aka Król" data-year="2026" data-tech="akryl na płótnie" data-dim="60 × 90 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/VIII_Sila_aka_Krol.jpg" alt="VIII Siła aka Król" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">VIII Siła aka Król</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 60 × 90 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:.06s" data-file="art/Krzyk.jpg" data-title="Krzyk"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="40 × 50 cm"
+          data-note="Moja interpretacja “Krzyku” E. Muncha. Jedna z kilku intertekstualnych prac.">
+          <div class="lr-tile-frame">
+            <img src="art/Krzyk.jpg" alt="Krzyk" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Krzyk</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 40 × 50 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:.12s"
-        data-file="art/Wybraniec.jpg" data-title="Wybraniec" data-year="2026" data-tech="akryl na płótnie" data-dim="30 × 40 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Wybraniec.jpg" alt="Wybraniec" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Wybraniec</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 30 × 40 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:.12s" data-file="art/Na_fali.jpg" data-title="Na fali"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="60 × 90 cm"
+          data-note="Na odległej, fantastycznej planecie, wielkie fale rozbryzgują się o brzeg.">
+          <div class="lr-tile-frame">
+            <img src="art/Na_fali.jpg" alt="Na fali" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Na fali</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 60 × 90 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:.18s"
-        data-file="art/Zwiadowca.jpg" data-title="Zwiadowca" data-year="2026" data-tech="akryl na płótnie" data-dim="50 × 60 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Zwiadowca.jpg" alt="Zwiadowca" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Zwiadowca</span>
-          <span class="lr-cap-meta mono">2026 · akryl · 50 × 60 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:.18s" data-file="art/Tesknota.jpg" data-title="Tęsknota"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="30 × 40 cm"
+          data-note="Obraz przedstawia siedzącą postać przepełnioną tęsknotą. Postać powoli zaczyna się rozpływać, rozpadać, tak jak wspomnienia z biegiem czasu. Jasne, żywe kolory kontrastują z tą nostalgią">
+          <div class="lr-tile-frame">
+            <img src="art/Tesknota.jpg" alt="Tęsknota" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Tęsknota</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 30 × 40 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:0s"
-        data-file="art/FARMA.jpg" data-title="Farma" data-year="2025" data-tech="akwarela" data-dim="21 × 29,7 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/FARMA.jpg" alt="Farma" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Farma</span>
-          <span class="lr-cap-meta mono">2025 · akwarela · 21 × 29,7 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:0s" data-file="art/To_the_Core.jpg"
+          data-title="To the Core/Nucleus" data-year="2026" data-tech="akryl na płótnie" data-dim="50 × 70 cm"
+          data-note="Obraz przedstawia podróż do rdzenia, do jądra … Ziemi? W lewym dolnym rogu wystają głowy postaci kierujących się wgłąb.">
+          <div class="lr-tile-frame">
+            <img src="art/To_the_Core.jpg" alt="To the Core" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">To the Core</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 50 × 70 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:.06s"
-        data-file="art/KITSUNE.jpg" data-title="Kitsune" data-year="2026" data-tech="" data-dim="21 × 29,7 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/KITSUNE.jpg" alt="Kitsune" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Kitsune</span>
-          <span class="lr-cap-meta mono">2026 · akwarela · 21 × 29,7 cm</span>
-        </figcaption>
-      </figure>
+        <figure class="lr-tile" style="transition-delay:.06s" data-file="art/VIII_Sila_aka_Krol.jpg"
+          data-title="VIII Siła aka Król" data-year="2026" data-tech="akryl na płótnie" data-dim="60 × 90 cm"
+          data-note="Obraz przedstawia lwa na tle swojego terytorium. Nawiązuje swoją symboliką do karty Tarota “Siła”, oznaczonej numerem VIII.">
+          <div class="lr-tile-frame">
+            <img src="art/VIII_Sila_aka_Krol.jpg" alt="VIII Siła aka Król" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">VIII Siła aka Król</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 60 × 90 cm</span>
+          </figcaption>
+        </figure>
 
-      <figure class="lr-tile" style="transition-delay:.12s"
-        data-file="art/Lisika_Rabbit.jpg" data-title="Lisika Rabbit" data-year="2026" data-tech="akwarela" data-dim="21 × 29,7 cm"
-        data-note="LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ">
-        <div class="lr-tile-frame">
-          <img src="art/Lisika_Rabbit.jpg" alt="Lisika Rabbit" loading="lazy" />
-          <div class="lr-tile-veil"></div>
-          <div class="lr-tile-view mono">zobacz</div>
-        </div>
-        <figcaption class="lr-cap">
-          <span class="lr-cap-title">Lisika Rabbit</span>
-          <span class="lr-cap-meta mono">2026 · akwarela · 21 × 29,7 cm</span>
-        </figcaption>
-      </figure>
-<!--
+        <figure class="lr-tile" style="transition-delay:.12s" data-file="art/Wybraniec.jpg" data-title="Wybraniec"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="30 × 40 cm"
+          data-note="Ważka przysiadła na nosie elfa, czyniąc go tym samym Wybrańcem. Obraz uwiecznia podobne wspomnienia artystki z ważkami, ćmami i motylami.">
+          <div class="lr-tile-frame">
+            <img src="art/Wybraniec.jpg" alt="Wybraniec" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Wybraniec</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 30 × 40 cm</span>
+          </figcaption>
+        </figure>
+
+        <figure class="lr-tile" style="transition-delay:.18s" data-file="art/Zwiadowca.jpg" data-title="Zwiadowca"
+          data-year="2026" data-tech="akryl na płótnie" data-dim="50 × 60 cm"
+          data-note="Postać w prawym dolnym rogu to Zwiadowca, który bada nowe intergalaktyczne tereny.">
+          <div class="lr-tile-frame">
+            <img src="art/Zwiadowca.jpg" alt="Zwiadowca" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Zwiadowca</span>
+            <span class="lr-cap-meta mono">2026 · akryl · 50 × 60 cm</span>
+          </figcaption>
+        </figure>
+
+        <figure class="lr-tile" style="transition-delay:0s" data-file="art/FARMA.jpg" data-title="Farma"
+          data-year="2025" data-tech="akwarela" data-dim="21 × 29,7 cm"
+          data-note="Praca przedstawia zwierzęta gospodarskie: królik, kurczak, świnka. Dla bystrego oka znajdzie się też smok: poluje czy chroni?">
+          <div class="lr-tile-frame">
+            <img src="art/FARMA.jpg" alt="Farma" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Farma</span>
+            <span class="lr-cap-meta mono">2025 · akwarela · 21 × 29,7 cm</span>
+          </figcaption>
+        </figure>
+
+        <figure class="lr-tile" style="transition-delay:.06s" data-file="art/KITSUNE.jpg" data-title="Kitsune"
+          data-year="2026" data-tech="akwarela" data-dim="21 × 29,7 cm"
+          data-note="Czujesz się obserwowany? Masz rację, przygląda Ci się lis. Możesz spróbować się z nim zaprzyjaźnić, przekupując go soczystą rybką, która pływa w pobliżu.">
+          <div class="lr-tile-frame">
+            <img src="art/KITSUNE.jpg" alt="Kitsune" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Kitsune</span>
+            <span class="lr-cap-meta mono">2026 · akwarela · 21 × 29,7 cm</span>
+          </figcaption>
+        </figure>
+
+        <figure class="lr-tile" style="transition-delay:.12s" data-file="art/Lisika_Rabbit.jpg"
+          data-title="Lisika Rabbit" data-year="2026" data-tech="akwarela" data-dim="21 × 29,7 cm"
+          data-note="Kiedy wszyscy biegają za tą samą laską, Ty masz swoją wierną i wyjątkową alternatywkę: Lisikę Rabbit">
+          <div class="lr-tile-frame">
+            <img src="art/Lisika_Rabbit.jpg" alt="Lisika Rabbit" loading="lazy" />
+            <div class="lr-tile-veil"></div>
+            <div class="lr-tile-view mono">zobacz</div>
+          </div>
+          <figcaption class="lr-cap">
+            <span class="lr-cap-title">Lisika Rabbit</span>
+            <span class="lr-cap-meta mono">2026 · akwarela · 21 × 29,7 cm</span>
+          </figcaption>
+        </figure>
+        <!--
       <figure class="lr-tile" style="transition-delay:.18s"
         data-file="art/12.jpg" data-title="Pierwszy oddech" data-year="2018" data-tech="olej, akryl" data-dim="120 × 100 cm"
         data-note="Najwcześniejsza zachowana praca. Tu wszystko się zaczęło.">
@@ -246,36 +256,37 @@
   </section>
 
   <!-- ── STOPKA ─────────────────────────────────────────── -->
-  <footer class="lr-footer">
-    <div class="lr-footer-name">luna radka</div>
-    <div class="lr-footer-meta mono">
-      atelier · warszawa &nbsp;·&nbsp; studio@lunaradka.pl &nbsp;·&nbsp; instagram @luna.radka
-    </div>
-  </footer>
+        <footer class="lr-footer">
+          <div class="lr-footer-name">luna radka</div>
+          <div class="lr-footer-meta mono">
+            atelier · warszawa &nbsp;·&nbsp; studio@lunaradka.pl &nbsp;·&nbsp; instagram @lunaradka
+          </div>
+        </footer>
 
-</div>
-
-<!-- ── LIGHTBOX (wypełniany przez main.js) ──────────────── -->
-<div class="lr-lightbox" hidden>
-  <button class="lr-lb-close mono" aria-label="Zamknij">✕ <span>zamknij</span></button>
-  <button class="lr-lb-nav lr-lb-prev" aria-label="Poprzedni">‹</button>
-  <div class="lr-lb-inner">
-    <div class="lr-lb-img"><img alt="" /></div>
-    <div class="lr-lb-meta">
-      <div class="lr-lb-index mono">01 / 12</div>
-      <h3 class="lr-lb-title">—</h3>
-      <div class="lr-lb-specs mono">
-        <div><span>rok</span><em data-spec="rok"></em></div>
-        <div><span>technika</span><em data-spec="technika"></em></div>
-        <div><span>wymiary</span><em data-spec="wymiary"></em></div>
       </div>
-      <p class="lr-lb-note">—</p>
-      <div class="lr-lb-status mono">— praca dostępna · zapytaj o cenę —</div>
-    </div>
-  </div>
-  <button class="lr-lb-nav lr-lb-next" aria-label="Następny">›</button>
-</div>
 
-<script src="js/main.js"></script>
+      <!-- ── LIGHTBOX (wypełniany przez main.js) ──────────────── -->
+      <div class="lr-lightbox" hidden>
+        <button class="lr-lb-close mono" aria-label="Zamknij">✕ <span>zamknij</span></button>
+        <button class="lr-lb-nav lr-lb-prev" aria-label="Poprzedni">‹</button>
+        <div class="lr-lb-inner">
+          <div class="lr-lb-img"><img alt="" /></div>
+          <div class="lr-lb-meta">
+            <div class="lr-lb-index mono">01 / 12</div>
+            <h3 class="lr-lb-title">—</h3>
+            <div class="lr-lb-specs mono">
+              <div><span>rok</span><em data-spec="rok"></em></div>
+              <div><span>technika</span><em data-spec="technika"></em></div>
+              <div><span>wymiary</span><em data-spec="wymiary"></em></div>
+            </div>
+            <p class="lr-lb-note">—</p>
+            <div class="lr-lb-status mono">— praca dostępna · zapytaj o cenę —</div>
+          </div>
+        </div>
+        <button class="lr-lb-nav lr-lb-next" aria-label="Następny">›</button>
+      </div>
+
+      <script src="js/main.js"></script>
 </body>
+
 </html>
